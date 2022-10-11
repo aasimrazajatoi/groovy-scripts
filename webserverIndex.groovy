@@ -10,10 +10,11 @@ if (!session.groovlet) {
 
 html.html {
     head {
-        title 'Groovlet info'
+        title 'Groovlet information'
     }
     body {
-        h1 'General info'
+        h1 'General information'
+        h3 ' All you need to know about groovlet'
         ul {
             li "Method: ${method}"
             li "RequestURI: ${request.requestURI}"
