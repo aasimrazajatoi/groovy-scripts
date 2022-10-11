@@ -13,5 +13,5 @@ def startJetty() {
     jetty.start()
 }
 
-println "Starting Jetty on port 9090, press Ctrl+C to stop."
+println "Starting Jetty on port 8080, press Ctrl+C to stop."
 startJetty()
