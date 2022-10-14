@@ -7,7 +7,7 @@ class First {
         println "Please wait..."
         String filePath = "/home/dd/Downloads/hello.sh"
         File readableFile = new File(filePath)
-        println readableFile.text
+        println readableFile.txt
 
         //collect lines into a list
         println "Collecting lines into list."

@@ -23,6 +23,7 @@ html.html {
         }
         
         h1 'Headers'
+        h1 'Headers'
         ul {
             headers.each {
                 li "${it.key} = ${it.value}"
