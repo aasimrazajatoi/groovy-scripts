@@ -13,7 +13,7 @@ html.html {
         title 'Groovlet information'
     }
     body {
-        h1 'General information'
+        h2 'General information'
         h3 ' All you need to know about groovlet'
         ul {
             li "Method: ${method}"
@@ -22,8 +22,8 @@ html.html {
             li "application.version: ${context.version}"
         }
         
-        h1 'Headers'
-        h1 'Headers'
+        h2 'Headers'
+        h2 'Headers'
         ul {
             headers.each {
                 li "${it.key} = ${it.value}"
