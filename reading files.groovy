@@ -17,12 +17,12 @@ class First {
         //read file as an array
         println "Reading a file as an array."
         def array = readableFile as String[]
-        println "array : $array"
+        println "array : $(array)"
 
 
         //read file as a list of string
         def line = readableFile.readLines()
-        println "lines : $line"
+        println "lines : $(line)"
     
     }
 
