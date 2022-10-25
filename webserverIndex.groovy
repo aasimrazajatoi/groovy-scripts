@@ -10,7 +10,7 @@ if (!session.groovlet) {
 
 html.html {
     head {
-        title 'Groovlet information'
+        title 'Groovlet info'
     }
     body {
         h2 'General information'
